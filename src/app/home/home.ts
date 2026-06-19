@@ -11,8 +11,8 @@ import { HousingLocationInfo } from '../models/housing-location';
 
 export class Home {
   readonly baseUrl = 'https://angular.dev/assets/images/tutorials/common';
-  
-  housingLocation: HousingLocationInfo = {
+
+  datosPropiedad: HousingLocationInfo = {
     id: 9999,
     name: 'Test Home',
     city: 'Test city',
