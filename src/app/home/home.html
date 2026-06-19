@@ -6,5 +6,7 @@
 </section>
 
 <section class="results">
+    @for (datosPropiedad of datosPropiedades; track $index) {
     <app-housing-location [housingLocation]="datosPropiedad" />
+    }
 </section>
